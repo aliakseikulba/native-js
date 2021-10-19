@@ -21,3 +21,10 @@
 // }
 // console.log(arr);
 
+// 5. Заполните массив числами от 1 до 10 с помощью цикла
+// const arr = [];
+// for (let i = 1; i < 11; i++) {
+//   arr.push(i)
+// }
+// console.log(arr);
+
