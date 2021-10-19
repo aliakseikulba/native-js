@@ -75,3 +75,11 @@
 // }
 // console.log(squaresSum);
 
+// 12. Дан массив с числами. Найдите среднее арифметическое его элементов (сумма элементов, делить на количество).
+const arr = [2, 7, 1, 3, 5];
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+let res = sum / arr.length;
+console.log(res);
