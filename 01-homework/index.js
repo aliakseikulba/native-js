@@ -67,3 +67,11 @@
 // }
 // console.log(sum);
 
+// 11.  Дан массив с числами. С помощью цикла найдите сумму квадратов элементов этого массива.
+// const arr = [2, 7, 1, 3, 5];
+// let squaresSum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   squaresSum += (arr[i] ** 2);
+// }
+// console.log(squaresSum);
+
