@@ -13,3 +13,11 @@
 //   console.log(i);
 // }
 
+// 4.  Заполните массив 10-ю иксами с помощью цикла
+// const arr = [];
+// for (let i = 0; i < 10; i++) {
+//   arr.push('X');
+//   // arr[i] = 'X';
+// }
+// console.log(arr);
+
