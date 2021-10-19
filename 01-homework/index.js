@@ -35,3 +35,10 @@
 // }
 // console.log(arr);
 
+// 7.  Заполните массив 10-ю случайными числами от 1 до 10 с помощью цикла
+// const arr = [];
+// for (let i = 0; i < 10; i++) {
+//   arr.push(Math.ceil(Math.random() * 10));
+// }
+// console.log(arr);
+
