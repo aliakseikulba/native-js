@@ -32,4 +32,3 @@ console.log(tasks);
 
 const tasksAfterRemove = {...tasks, [todoListsId_1]: tasks[todoListsId_1].filter(t => t.id !== 'qgh2s1')};
 console.log(tasksAfterRemove);
-
