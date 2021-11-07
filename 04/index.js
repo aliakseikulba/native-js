@@ -27,8 +27,8 @@ const tasks = {
   ]
 }
 
-console.log(tasks[todoListsId_1].filter(t => t.id !== 'qgh2s1'));
-console.log(tasks);
+const removeTask = tasks[todoListsId_1].filter(t => t.id !== 'qgh2s1');
+console.log(removeTask);
 
-const tasksAfterRemove = {...tasks, [todoListsId_1]: tasks[todoListsId_1].filter(t => t.id !== 'qgh2s1')};
+const tasksAfterRemove = {...tasks, [todoListsId_1]: removeTask};
 console.log(tasksAfterRemove);
