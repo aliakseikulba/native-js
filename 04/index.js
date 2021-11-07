@@ -26,3 +26,6 @@ const tasks = {
     {id: 'ash56k', title: 'Milk', isDone: true},
   ]
 }
+
+const tasksAfterRemove = tasks[todoListsId_1].filter(t => t.id !== 'qgh2s1');
+console.log(tasksAfterRemove);
