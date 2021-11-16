@@ -34,3 +34,31 @@ const nums = [32, 12, 17, 111, 63, 98, 500, 10, 435, 1]
 // }
 // const compareFn = (a,b) => b-a
 console.log(nums.sort((a,b) => a - b));
+
+
+const students = [
+  {
+    name: 'Bob',
+    age: 30,
+    isMarried: true,
+    score: 90
+  },
+  {
+    name: 'Jack',
+    age: 35,
+    isMarried: true,
+    score: 78
+  },
+  {
+    name: 'Mike',
+    age: 25,
+    isMarried: true,
+    score: 80
+  },
+  {
+    name: 'Nik',
+    age: 27,
+    isMarried: false,
+    score: 95
+  }
+]
