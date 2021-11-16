@@ -56,9 +56,25 @@ const students = [
     score: 80
   },
   {
+    name: 'mike',
+    age: 25,
+    isMarried: true,
+    score: 80
+  },
+  {
+    name: 'nik',
+    age: 27,
+    isMarried: false,
+    score: 95
+  },
+  {
     name: 'Nik',
     age: 27,
     isMarried: false,
     score: 95
   }
 ]
+
+console.log(students.sort((a,b) => a.score - b.score));
+console.log(students.sort((a,b) => a.name <= b.name ? -1 : 1)); //если юникод меньше - перестановки не будет
+console.log(students.sort((a,b) => a.name.toLowerCase() <= b.name.toLowerCase() ? -1 : 1));
