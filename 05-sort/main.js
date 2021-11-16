@@ -25,7 +25,6 @@ const names = ['Bob', 'Alex', 'Nick', 'Donald', 'Joe', '999', '!alex', 'Юрий
 console.log(names.sort());
 
 const nums = [32, 12, 17, 111, 63, 98, 500, 10, 435, 1]
-
 // const compareFn = (a,b) => {
 //   if(a > b) {
 //     return 1
@@ -33,7 +32,5 @@ const nums = [32, 12, 17, 111, 63, 98, 500, 10, 435, 1]
 //     return -1
 //   }
 // }
-
-const compareFn = (a,b) => a-b
-
-console.log(nums.sort(compareFn));
+// const compareFn = (a,b) => b-a
+console.log(nums.sort((a,b) => a - b));
