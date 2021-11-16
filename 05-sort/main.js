@@ -22,3 +22,4 @@ console.log(arr);
 
 //arr.sort()
 const names = ['Bob', 'Alex', 'Nick', 'Donald', 'Joe', '999', '!alex', 'Юрий', 'юрий'];
+console.log(names.sort());
