@@ -1,15 +1,12 @@
-const arr = [1, 23, 0, 45, 642, 678,12, 34]
-
-
 //bubble sort
+const arr = [1, 23, 0, 45, 642, 678, 12, 34];
 for (let j = 0; j < arr.length - 1; j++) {
   for (let i = 0; i < arr.length - 1 - j; i++) {
-    if (arr[i] > arr[i +1]) {
-      [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]]
+    if (arr[i] > arr[i + 1]) {
+      [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
     }
   }
 }
-
 
 // for (let j = 0; j < arr.length - 1; j++) {
 //   for (let i = 0; i < arr.length - 1 - j; i++) {
@@ -21,3 +18,7 @@ for (let j = 0; j < arr.length - 1; j++) {
 //   }
 // }
 console.log(arr);
+
+
+//arr.sort()
+const names = ['Bob', 'Alex', 'Nick', 'Donald', 'Joe', '999', '!alex', 'Юрий', 'юрий'];
